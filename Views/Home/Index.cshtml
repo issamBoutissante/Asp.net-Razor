@@ -1,4 +1,4 @@
-﻿
+﻿@model Asp.net_Razor.Models.Student
 @{
     ViewBag.Title = "Index";
 }
@@ -10,4 +10,18 @@
     }
     <em>@date</em>
 </h2>
+<table>
+    <tr>
+        <td><label>Id</label></td>
+        <td>@Model.Id</td>
+    </tr>
+    <tr>
+        <td><label>Name</label></td>
+        <td>@Model.Name</td>
+    </tr>
+    <tr>
+        <td><label>Age</label></td>
+        <td>@Model.Age</td>
+    </tr>
+</table>
 
